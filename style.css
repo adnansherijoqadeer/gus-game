@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.mainsection{
+    display: block;
+    right: 20%;
+    top: 30%;
+    position: absolute;
+    left: 20%;
+    background-color: green;
+    border-radius: 10px;
+}
+.again{
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.between{
+    display: inline-block;
+    float: right;
+    margin: 22px 0.6rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.my{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.dote{
+    background: white;
+    text-align: center;
+    color: black;
+    height: 53px;
+    width: 77px;
+    margin: auto;
+    font-size: 3rem;
+    border-radius: 3px;
+}
+.guess{
+       margin-left: 1rem;
+       outline: none;
+       border: none;
+       padding: 1rem;
+       width: 82px;
+       font-size: 1.6rem;
+       color: black;
+       background: transparent;
+       border: 1px solid white;
+       border-radius: 3px;
+       display: block;
+       color: white;
+}
+.check{
+    margin-top: 23px;
+    padding: 7px 13px;
+    margin-left: 1.2rem;
+    font-size: 19px;
+    border: 1px solid white;
+    background: #938585;
+    color: white;
+}
+.secoundsection{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-top: 38px;
+    margin-bottom: 1rem;
+}
+.right{
+    margin-right: 162px;
+}
+.message{
+    color: white;
+    font-size: 1.4rem;
+}
+.label-score{
+    color: white;
+    font-size: 1.4rem;
+}
+.lable-highscore{
+    color: white;
+    font-size: 1.4rem;
+}
+/* hr{
+    position: relative;
+    top: -36px;
+   height: 4px;
+   color: white;
+   background-color: white;
+   z-index: 1;
+} */
